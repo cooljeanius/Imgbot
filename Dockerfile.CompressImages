@@ -10,7 +10,7 @@ RUN cd /src/CompressImagesFunction && cp bin/Release/net6.0/runtimes/linux-x64/n
 
 FROM mcr.microsoft.com/azure-functions/dotnet:4
 
-RUN apt-get update && apt-get install -y --no-install-recommends --no-install-suggests \
+RUN apt-get update && apt-get install -y --no-install-recommends --no-install-suggests --fix-missing \
   curl libcurl4 autoconf automake libtool nasm make wget pkg-config ca-certificates gnupg findutils gawk
 
 RUN mkdir -p /etc/apt/keyrings
