@@ -11,6 +11,8 @@ updates:
       nuget:
         patterns:
           - "*"
+    cooldown:
+      default-days: 7
   - package-ecosystem: npm
     directory: "/Tools"
     directory: "/Web"
@@ -22,6 +24,8 @@ updates:
       npm:
         patterns:
           - "*"
+    cooldown:
+      default-days: 7
   - package-ecosystem: docker
     directory: "/"
     schedule:
@@ -32,6 +36,8 @@ updates:
       docker:
         patterns:
           - "*"
+    cooldown:
+      default-days: 7
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -42,3 +48,5 @@ updates:
       actions:
         patterns:
           - "*"
+    cooldown:
+      default-days: 7
