@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: nuget
     directory: "/"
     schedule:
-      interval: weekly
+      interval: monthly
     labels:
       - enhancement
     groups:
@@ -17,7 +17,7 @@ updates:
     directory: "/Tools"
     directory: "/Web"
     schedule:
-      interval: weekly
+      interval: monthly
     labels:
       - enhancement
     groups:
@@ -29,7 +29,7 @@ updates:
   - package-ecosystem: docker
     directory: "/"
     schedule:
-      interval: weekly
+      interval: monthly
     labels:
       - enhancement
     groups:
@@ -41,7 +41,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: weekly
+      interval: monthly
     labels:
       - enhancement
     groups:
