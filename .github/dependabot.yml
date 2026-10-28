@@ -12,7 +12,7 @@ updates:
         patterns:
           - "*"
     cooldown:
-      default-days: 7
+      default-days: 9
   - package-ecosystem: npm
     directory: "/Tools"
     directory: "/Web"
@@ -25,7 +25,7 @@ updates:
         patterns:
           - "*"
     cooldown:
-      default-days: 7
+      default-days: 9
   - package-ecosystem: docker
     directory: "/"
     schedule:
@@ -37,7 +37,7 @@ updates:
         patterns:
           - "*"
     cooldown:
-      default-days: 7
+      default-days: 9
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -49,4 +49,4 @@ updates:
         patterns:
           - "*"
     cooldown:
-      default-days: 7
+      default-days: 9
